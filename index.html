@@ -4,7 +4,15 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portafoliot</title>
+    <meta name="theme-color" content="#000000"/>
+    <meta 
+    name="description"
+    content=" Portafolio Web site created using create-react-app" />
+    
+    <link rel="apple-touch-icon" href="">
+    
+    <title>PORTAFOLIO</title>
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
 
@@ -25,30 +33,53 @@
       </div>
 
       <section class="seccion" id="works">
-      </section>
-
-      <h2 class="h2">Trabajos</h2>
-      <p>Aqui presento mis trabajos que he realizado en mi curso de full-stack</p>
+      </section>      
       
       <div class="grid">
         <article class="article">
+          <h2 class="h2">INICIO</h2>
+          <p>Aqui encontraras mis trabajos realizados con fotos y enlace web</p>
           <a href="#" title="Trabajo1"></a>
-          <img src="#" alt="imagen" class="img" loading="lazy">
-          <h4>Nombre trabajo</h4>
+          <img src="./src/descarga.jpg" alt="imagen" class="img" loading="lazy">
+          <h4>LANDING PAGE</h4>
+        </article>
+
+        <article class="article">
+          <h2 class="h2">Trabajo2</h2>
+      <p>En este proyecto podemos observar un juego el cual se implementa como tipo ruleta, al poner a muchos nombres y damos a escoger el ganador con el ultimo pato que quede</p>
+          <a href="#" title="Trabajo1"></a>
+          <img src="./src/whellofdom.png" alt="imagen" class="imagen" loading="lazy">
+          <h4>Wheel of dom</h4>
+          <p>https://dcsandoval10.github.io/P.A_Wheel_Of_Doom_Ducks/</p>
+        </article>
+
+        <article class="article">
+          <h2 class="h2">Trabajo3</h2>
+      <p>En este proyecto se observa los primeros indicios en la parte de javascript, en el cual obtenermos como resultado una calculadroa funional y con estilo</p>
+          <a href="#" title="Trabajo1"></a>
+          <img src="./src/calculadora.png" alt="imagen" class="imagen" loading="lazy">
+          <h4>Caluladora</h4>
+          <p>https://valentina9911.github.io/Calculadora/</p>
         </article>
       </div>
-
+    </main>
+    <div class="about">
+      <h1>ABOUT ME</h1>
+      <p>Aca podras contactarme para obtener mas información:</p>
+      <h4>NOMBRE</h4><button class="button1">Pepito perez</button>
+      <h4>E-MAIL</h4><button class="button1">Pepito perez</button>
+      <h4>MENSAJE</h4><button class="button1">Pepito@gmail.com</button>
+      <br><br><br>
+      <button class="enviar">enviar</button>
+      <br><br><br>
+    </div>
       <footer class="footer">
-       <section class="seccion" id="about">
-        <h2 class="h2">Sobre mi</h2>
-        <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt facere odio dicta et, ea officiis cupiditate. Adipisci dolor veniam numquam consequuntur qui atque placeat sapiente quam iste praesentium, nulla minima!</p>
-        <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt facere odio dicta et, ea officiis cupiditate. Adipisci dolor veniam numquam consequuntur qui atque placeat sapiente quam iste praesentium, nulla minima!</p>
-        <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt facere odio dicta et, ea officiis cupiditate. Adipisci dolor veniam numquam consequuntur qui atque placeat sapiente quam iste praesentium, nulla minima!</p>
-       </section>
+        <span class="span">Laura Godoy</span>
       </footer>
 
-    </main>
-    <div id="root"></div>
+    <div id="root">
+      
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
